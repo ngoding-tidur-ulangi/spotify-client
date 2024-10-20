@@ -19,7 +19,7 @@ const Root = () => {
 
         if (token) {
             localStorage.setItem('token', token);
-            navigate('/');
+            window.location.href = "/"
         }
     }, [navigate])
 
